@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "config": "^3.3.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "mailer": "^0.6.7",
+    "mongoose": "^6.7.3",
+    "node": "^19.3.0",
+    "npm": "^9.7.2",
+    "stripe": "^11.8.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
+  }
+}

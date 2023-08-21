@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="logger"></div>
+<div id="container">
+    <div style="width: 100%; float: left; margin-top: 20px">
+        <div style="width: 100%; text-align: center;">
+            <div style="width: 820px; margin-left: auto; margin-right: auto">
+                <div class="container-2 bg">
+                    <div id="weather" class="data-number">Loading...</div>
+                    <div class="data-name">temp out</div>
+                </div>
+                <div class="container-2 bg"  style="margin-right: 0">
+                    <div id="tempIn"  class="data-number">Loading...</div>
+                    <div class="data-name">temp in</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; float: left;">
+        <div id="secondContainer">
+            <div id="clock">Loading...</div>
+            <div id="date">Loading...</div>
+        </div>
+    </div>
+    <div style="width: 100%; float: left; margin-top: 20px">
+        <div style="width: 100%; text-align: center;">
+            <div style="width: 820px; margin-left: auto; margin-right: auto">
+                <div class="container-3 bg">
+                    <div id="light"  class="data-number">Loading...</div>
+                    <div class="data-name">light</div>
+                </div>
+                <div class="container-3 bg">
+                    <div id="humidityIn" class="data-number">Loading...</div>
+                    <div class="data-name">hum</div>
+                </div>
+                <div class="container-3 bg"  style="margin-right: 0">
+                    <div id="uv"  class="data-number">Loading...</div>
+                    <div class="data-name">uv</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="main.js"></script>
+<script src="homedata.js"></script>
+<script>
+    document.getElementById('tempIn').addEventListener('click', function () {
+        window.location.href = 'chart.html';
+    });
+</script>
+</body>
+</html>
